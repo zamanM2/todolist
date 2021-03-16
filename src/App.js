@@ -1,21 +1,14 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from "react";
 import './App.css';
+import './Components/TodoItem';
 
 function App() {
   return (
-    <div className="App">
-     <input type ="checkbox"/>
-     <p>Placeholder text here</p>
-
-     <input type ="checkbox"/>
-     <p>Placeholder text here</p>
-     
-     <input type ="checkbox"/>
-     <p>Placeholder text here</p>
-
-    </div>
-  );
+    <div >
+  <TodoItem /> 
+  
+  </div>
+  )
 }
 
 export default App;
